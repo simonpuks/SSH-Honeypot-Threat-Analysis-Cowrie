@@ -43,10 +43,6 @@ The following diagram illustrates the complete attack detection and automated re
 
 ![Architecture Diagram](images/architecture-overview.png)
 
-## 🏗️ Architecture Overview
-
-![Architecture Diagram](images/architecture-overview.png)
-
 ### Workflow Summary
 
 1. Internet attackers interact with the Cowrie Honeypot hosted on an Azure Ubuntu VM.
