@@ -43,6 +43,20 @@ The following diagram illustrates the complete attack detection and automated re
 
 ![Architecture Diagram](images/architecture-overview.png)
 
+## 🏗️ Architecture Overview
+
+![Architecture Diagram](images/architecture-overview.png)
+
+### Workflow Summary
+
+1. Internet attackers interact with the Cowrie Honeypot hosted on an Azure Ubuntu VM.
+2. Cowrie records attacker activity and stores events in JSON log files.
+3. Azure Monitor Agent (AMA) collects the logs using a Data Collection Rule (DCR).
+4. Logs are forwarded to Azure Log Analytics Workspace for centralised storage.
+5. Microsoft Sentinel analyses incoming events using analytics rules and KQL-based detections.
+6. Detected threats generate incidents and alerts.
+7. Logic Apps enrich incidents and automate response actions such as IP blocking, alerting, and incident management.
+
 ---
 
 ## 🔄 Solution Workflow
