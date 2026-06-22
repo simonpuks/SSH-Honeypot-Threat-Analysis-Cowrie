@@ -190,35 +190,7 @@ Depending on the severity and reputation of the detected threat, the system can 
 
 ---
 
-## 📊 Security Monitoring Pipeline
-
-```text
-Internet Attackers
-        ↓
-Azure Ubuntu VM
-        ↓
-Cowrie Honeypot
-        ↓
-Cowrie JSON Logs
-        ↓
-Azure Monitor Agent (AMA)
-        ↓
-Data Collection Rule (DCR)
-        ↓
-Log Analytics Workspace
-        ↓
-Microsoft Sentinel (SIEM)
-        ↓
-Detection & Incident Creation
-        ↓
-Logic Apps (SOAR)
-        ↓
-Automated Response Actions
-```
-
----
-
-## 📈 Expected Security Outcomes
+## 📈 Security Outcomes
 
 This solution enables security teams to:
 
