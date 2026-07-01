@@ -1,4 +1,4 @@
-# 🔐 Azure Sentinel SIEM & SOAR Honeypot Monitoring Lab
+# 🔐 Azure Sentinel SIEM & SOAR Honeypot Monitoring Lab [Development in Progress...]
 
 ## 📌 Project Overview
 
